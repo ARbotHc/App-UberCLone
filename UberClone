@@ -1,0 +1,516 @@
+class Main {
+    
+    public static void main(String[ ] args) {
+        UberX uberX = new UberX("AMQ123", new Account("Jeyfred Calderon", "JCC1004"), "Chevrolet", "Spark");
+        uberX.setPassenger(4);
+        uberX.printDataCar();
+        
+        UberVan uberVan = new UberVan("FGH456", new Account("Andres Herrera", "AND123"));
+        uberVan.setPassenger(6);
+        uberVan.printDataCar();
+    }
+}
+class  Account {
+    ID de número entero ;
+    Nombre de cadena ;
+    Documento de cadena ;
+    Cadena de correo electrónico;
+    Cadena de contraseña;
+
+    pública  de cuentas ( Cadena  nombre , cadena  documento ) {
+        esto . nombre = nombre;
+        esto . documento = documento;
+    }
+}
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="output" path=""/>
+</classpath>
+class Car {
+    Integer id;
+    String license;
+    Account driver;
+    private Integer passenger;
+
+    public Car(String license, Account driver){
+        this.license = license;
+        this.driver = driver;
+    }
+
+    void printDataCar(){
+        if(passenger !=null ){
+        System.out.println("License: " + license + " Driver: " + driver.name + " Passenger: " + passenger);
+        }
+    }
+
+    public Integer getPassenger(){
+        return passenger;
+    }
+
+    public void setPassenger(Integer passenger){
+        if(passenger == 4){
+            this.passenger = passenger;
+        }
+        else{
+            System.out.println("Necesitas asignar 4 pasajeros");
+        }
+    }
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getLicense() {
+		return license;
+	}
+
+	public void setLicense(String license) {
+		this.license = license;
+	}
+
+	public Account getDriver() {
+		return driver;
+	}
+
+	public void setDriver(Account driver) {
+		this.driver = driver;
+	}
+
+}
+class Car {
+    Integer id;
+    String license;
+    Account driver;
+    private Integer passenger;
+
+    public Car(String license, Account driver){
+        this.license = license;
+        this.driver = driver;
+    }
+
+    void printDataCar(){
+        if(passenger !=null ){
+        System.out.println("License: " + license + " Driver: " + driver.name + " Passenger: " + passenger);
+        }
+    }
+
+    public Integer getPassenger(){
+        return passenger;
+    }
+
+    public void setPassenger(Integer passenger){
+        if(passenger == 4){
+            this.passenger = passenger;
+        }
+        else{
+            System.out.println("Necesitas asignar 4 pasajeros");
+        }
+    }
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getLicense() {
+		return license;
+	}
+
+	public void setLicense(String license) {
+		this.license = license;
+	}
+
+	public Account getDriver() {
+		return driver;
+	}
+
+	public void setDriver(Account driver) {
+		this.driver = driver;
+	}
+
+}class Car {
+    Integer id;
+    String license;
+    Account driver;
+    private Integer passenger;
+
+    public Car(String license, Account driver){
+        this.license = license;
+        this.driver = driver;
+    }
+
+    void printDataCar(){
+        if(passenger !=null ){
+        System.out.println("License: " + license + " Driver: " + driver.name + " Passenger: " + passenger);
+        }
+    }
+
+    public Integer getPassenger(){
+        return passenger;
+    }
+
+    public void setPassenger(Integer passenger){
+        if(passenger == 4){
+            this.passenger = passenger;
+        }
+        else{
+            System.out.println("Necesitas asignar 4 pasajeros");
+        }
+    }
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getLicense() {
+		return license;
+	}
+
+	public void setLicense(String license) {
+		this.license = license;
+	}
+
+	public Account getDriver() {
+		return driver;
+	}
+
+	public void setDriver(Account driver) {
+		this.driver = driver;
+	}
+
+}class Car {
+    Integer id;
+    String license;
+    Account driver;
+    private Integer passenger;
+
+    public Car(String license, Account driver){
+        this.license = license;
+        this.driver = driver;
+    }
+
+    void printDataCar(){
+        if(passenger !=null ){
+        System.out.println("License: " + license + " Driver: " + driver.name + " Passenger: " + passenger);
+        }
+    }
+
+    public Integer getPassenger(){
+        return passenger;
+    }
+
+    public void setPassenger(Integer passenger){
+        if(passenger == 4){
+            this.passenger = passenger;
+        }
+        else{
+            System.out.println("Necesitas asignar 4 pasajeros");
+        }
+    }
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getLicense() {
+		return license;
+	}
+
+	public void setLicense(String license) {
+		this.license = license;
+	}
+
+	public Account getDriver() {
+		return driver;
+	}
+
+	public void setDriver(Account driver) {
+		this.driver = driver;
+	}
+
+}class Car {
+    Integer id;
+    String license;
+    Account driver;
+    private Integer passenger;
+
+    public Car(String license, Account driver){
+        this.license = license;
+        this.driver = driver;
+    }
+
+    void printDataCar(){
+        if(passenger !=null ){
+        System.out.println("License: " + license + " Driver: " + driver.name + " Passenger: " + passenger);
+        }
+    }
+
+    public Integer getPassenger(){
+        return passenger;
+    }
+
+    public void setPassenger(Integer passenger){
+        if(passenger == 4){
+            this.passenger = passenger;
+        }
+        else{
+            System.out.println("Necesitas asignar 4 pasajeros");
+        }
+    }
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getLicense() {
+		return license;
+	}
+
+	public void setLicense(String license) {
+		this.license = license;
+	}
+
+	public Account getDriver() {
+		return driver;
+	}
+
+	public void setDriver(Account driver) {
+		this.driver = driver;
+	}
+
+}class Car {
+    Integer id;
+    String license;
+    Account driver;
+    private Integer passenger;
+
+    public Car(String license, Account driver){
+        this.license = license;
+        this.driver = driver;
+    }
+
+    void printDataCar(){
+        if(passenger !=null ){
+        System.out.println("License: " + license + " Driver: " + driver.name + " Passenger: " + passenger);
+        }
+    }
+
+    public Integer getPassenger(){
+        return passenger;
+    }
+
+    public void setPassenger(Integer passenger){
+        if(passenger == 4){
+            this.passenger = passenger;
+        }
+        else{
+            System.out.println("Necesitas asignar 4 pasajeros");
+        }
+    }
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getLicense() {
+		return license;
+	}
+
+	public void setLicense(String license) {
+		this.license = license;
+	}
+
+	public Account getDriver() {
+		return driver;
+	}
+
+	public void setDriver(Account driver) {
+		this.driver = driver;
+	}
+
+}class Car {
+    Integer id;
+    String license;
+    Account driver;
+    private Integer passenger;
+
+    public Car(String license, Account driver){
+        this.license = license;
+        this.driver = driver;
+    }
+
+    void printDataCar(){
+        if(passenger !=null ){
+        System.out.println("License: " + license + " Driver: " + driver.name + " Passenger: " + passenger);
+        }
+    }
+ pago de clase {
+    ID de número entero ;
+}
+
+    public Integer getPassenger(){
+        return passenger;
+    }
+
+    public void setPassenger(Integer passenger){
+        if(passenger == 4){
+            this.passenger = passenger;
+        }
+        else{
+            System.out.println("Necesitas asignar 4 pasajeros");
+        }
+    }
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getLicense() {
+		return license;
+	}
+
+	public void setLicense(String license) {
+		this.license = license;
+	}
+
+	public Account getDriver() {
+		return driver;
+	}
+
+	public void setDriver(Account driver) {
+		this.driver = driver;
+	}
+
+}
+/ Account.class
+/ Car.class
+/ Clase.principal
+/ Payment.class
+/ Route.class
+/ UberBlack.class
+/ UberPool.class
+/ UberVan.class
+/ UberX.class
+<? xml versión = " 1.0 " codificación = " UTF-8 " ?>
+< projectDescription >
+	< nombre > Java </ nombre >
+	< comentario > </ comentario >
+	< proyectos >
+	</ proyectos >
+	< buildSpec >
+		< buildCommand >
+			< nombre > org.eclipse.jdt.core.javabuilder </ nombre >
+			< argumentos >
+			</ argumentos >
+		</ buildCommand >
+	</ buildSpec >
+	< naturalezas >
+		< naturaleza > org.eclipse.jdt.core.javanature </ naturaleza >
+	</ naturalezas >
+</ projectDescription >
+class  Route {
+    ID de número entero ;
+    ArrayList < Doble > inicio;
+    ArrayList < Double > end;
+}
+import  java.util.ArrayList ;
+import  java.util.Map ;
+
+class  UberBlack  extiende  Car {
+    Mapa < cadena , mapa < Cadena , Entero > > typeCarAccepted;
+    ArrayList < String > SeatMaterial;
+
+    pública  UberBlack ( Cadena  de licencia , Cuenta  conductor , Mapa < cadena , Mapa < Cadena , Entero > >  typeCarAccepted , ArrayList < cadena >  seatsMaterial ) {
+        super (licencia, conductor);
+        esto . typeCarAccepted = typeCarAccepted;
+        esto . asientosMaterial = asientosMaterial;
+    }
+
+}
+class  UberPool  extiende  Car {
+    Marca de cuerda ;
+    Modelo de cuerda ;
+
+    pública  UberPool ( Cadena  de licencia , Cuenta  conductor , Cadena  de marca , Cadena  modelo ) {
+        super (licencia, conductor);
+        esto . marca = marca;
+        esto . modelo = modelo;
+
+    }
+}
+import  java.util.ArrayList ;
+import  java.util.Map ;
+
+class  UberVan  extiende  Car {
+    Mapa < cadena , mapa < Cadena , Entero > > typeCarAccepted;
+    ArrayList < String > SeatMaterial;
+     pasajero entero privado ;
+
+     UberVan público ( licencia de cadena  , controlador de cuenta ) { 
+        super (licencia, conductor);
+    }
+    
+   @Anular 
+    setPassenger public void  ( pasajero entero ) { 
+       si (pasajero ==  6 ) {
+           esto . pasajero = pasajero;
+       }
+       else {
+           Sistema . fuera . println ( " Necesitas asignar 6 pasajeros " );
+       }
+   }
+   
+   @Anular
+   void  printDataCar () {
+       Sistema . fuera . println ( " Licencia: "  + licencia +  " Conductor: "  + conductor . Nombre +  " Pasajero: "  + pasajero);
+
+   }
+   
+}
+class  UberX  extiende  Car {
+    Marca de cuerda ;
+    Modelo de cuerda ;
+
+    pública  UberX ( Cadena  de licencia , Cuenta  conductor , Cadena  de marca , Cadena  modelo ) {
+        super (licencia, conductor);
+        esto . marca = marca;
+        esto . modelo = modelo;
+
+    }
+    
+    @Anular
+    void  printDataCar () {
+    	super . printDataCar ();
+        Sistema . fuera . println ( " Modelo: "  + modelo +  " Marca: "  + marca);
+
+    }
+}
